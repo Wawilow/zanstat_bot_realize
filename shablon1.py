@@ -12,3 +12,7 @@ def shablon_1(texts):
     draw_text.text((665, 635), text_four, font=font_2, fill=(102, 102, 102))
     '''im.show()'''
     im.save("image.png")
+
+
+if __name__ == '__main__':
+    shablon_1(['1', '2', '3', '4', '5'])
